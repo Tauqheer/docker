@@ -1,0 +1,6 @@
+version: "3"
+services:
+  python:
+    container_name: Python 1
+    image: tauqheer/python:1.0.0
+    build: ./python
